@@ -1,0 +1,5 @@
+package smswithspringmvcnew.config;
+
+public class AppConfig {
+
+}

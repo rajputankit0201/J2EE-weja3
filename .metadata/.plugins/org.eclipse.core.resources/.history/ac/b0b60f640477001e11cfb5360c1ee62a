@@ -1,0 +1,34 @@
+package gigantetechnlogy;
+
+public class Armstrong6thNumber {
+public static void main(String[] args) {
+	int start=1,count=0;
+	while(start>0) {
+		int copy=start,flag=start,sum=0,digit=0;
+		
+		while(copy>0) {
+			digit++;
+			copy/=10;
+		}
+		while(flag>0) {
+			int r=flag%10;
+			int p =1;
+			for(int i=1;i<digit;i++) {
+				p*=r;
+				sum +=p;
+				flag /=p;
+			}
+			if (sum==start) {
+				count++;
+				if (count==10) {
+					System.out.println(start);
+				}
+			}
+			start++;
+		}
+		
+	}
+	
+}
+
+}

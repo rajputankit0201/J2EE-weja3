@@ -1,0 +1,14 @@
+package itWorkInfoTech;
+
+public class StringMethod {
+
+	public static void main(String[] args) {
+		
+		String s="123abc25cd1";
+		String a[]=s.split("\\D");
+		
+		System.out.println(a);
+		
+		
+	}
+}

@@ -1,0 +1,7 @@
+package com.qspiders.servlets;
+
+import javax.servlet.http.HttpServlet;
+
+public class MyServlet5 extends HttpServlet {
+
+}

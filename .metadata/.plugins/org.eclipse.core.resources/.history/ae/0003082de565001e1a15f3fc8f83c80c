@@ -1,0 +1,32 @@
+package itWorkInfoTech;
+
+public class MoveZeroesToEnd {
+    public static void main(String[] args) {
+        int[] array = {0, 7, 0, 3, 0, 4, 0, 1};
+
+        
+        moveZeroesToEnd(array);
+
+        for (int num : array) {
+            System.out.print(num + " ");
+        }
+    }
+
+    public static void moveZeroesToEnd(int[] nums) {
+        int index = 0;
+
+        
+        for (int num : nums) {
+            if (num != 0) {
+                nums[index] = num;
+                index++;
+            }
+        }
+
+        // Fill the remaining positions with zeroes
+        while (index < nums.length) {
+            nums[index] = 0;
+            index++;
+        }
+    }
+}

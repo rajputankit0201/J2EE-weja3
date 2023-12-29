@@ -1,0 +1,28 @@
+package itWorkInfoTech;
+
+public class NegativeSwapping {
+
+			public static void main(String[] args) {
+				
+				
+				
+				int a[]= {20,-1,3,4,6,5,-10,5};
+				int pos=0;
+				int neg=a.length-1;
+				
+				for (int i = 0; i < a.length; i++) {
+					if(a[i] >0) {
+						
+						a[pos]=a[i];
+						System.out.println(pos);
+						pos++;
+						
+					}
+					else {
+						a[neg]=a[i];
+						System.out.println(neg);
+						neg--;
+					}
+				}
+			}
+}

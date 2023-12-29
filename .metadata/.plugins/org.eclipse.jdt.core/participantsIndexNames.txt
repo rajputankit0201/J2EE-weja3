@@ -1,0 +1,17 @@
+INDEX VERSION 1.134
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2438047200.index
+\smswithspringmvcnew\src\main\java
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2044684037.index
+\smswithspringmvc\src\main\java
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2829613189.index
+\j2ee2ndmock\src\main\java
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1658164742.index
+\studentmanagementsystem\src\main\java
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\893990685.index
+\jsp\src\main\java
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\199809840.index
+\smswithspringmvc\src\main\java
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1019196369.index
+\smswithspringmvcnew\src\main\java
+F:\J2EE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2299549048.index
+\smswithspringmvcnew\src\main\java

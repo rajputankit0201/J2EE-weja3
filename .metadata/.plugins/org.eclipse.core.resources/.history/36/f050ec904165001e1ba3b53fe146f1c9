@@ -1,0 +1,27 @@
+package itWorkInfoTech;
+
+public class MaxAndMinNumber {
+    public static void main(String[] args) {
+        int a[] = {33, 2, 45, 56, 78, 99};
+        int max = Integer.MIN_VALUE; // Initialize max to the minimum possible integer value
+        int max2 = Integer.MIN_VALUE; // Initialize max2 to the minimum possible integer value
+        int min = Integer.MAX_VALUE; // Initialize min to the maximum possible integer value
+
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] > max) {
+                max2 = max;
+                max = a[i];
+            } else if (a[i] > max2) { // Fixed the syntax issue here
+                max2 = a[i];
+            }
+
+            if (a[i] < min) {
+                min = a[i];
+            }
+        }
+
+        System.out.println("Maximum: " + max);
+        System.out.println("Second Maximum: " + max2);
+        System.out.println("Minimum: " + min);
+    }
+}
